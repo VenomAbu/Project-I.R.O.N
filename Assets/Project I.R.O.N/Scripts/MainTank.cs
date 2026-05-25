@@ -13,6 +13,19 @@ public class MainTank : Character
     float inputVertical;
     float inputHorizontal;
 
+    private Inventory inventory;
+    public UI_Inventory uiInventory;
+
+    new private void Awake()
+    {
+        inventory = new Inventory();
+    }
+
+    private void Start()
+    {
+        uiInventory.SetInventory(inventory, this);
+    }
+
     private void Update()
     {
         // Pega os Inputs do jogador
@@ -49,9 +62,20 @@ public class MainTank : Character
     public override void Die()
     {
         Debug.Log("O tanque foi destruído! Fim de jogo.");
-        
+
         // Faz o tanque desaparecer
         gameObject.SetActive(false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        ItemWorld itemWorld = collision.gameObject.GetComponent<ItemWorld>();
+        if(itemWorld != null)
+        {
+            // Encostou em um item
+            inventory.AddItem(itemWorld.GetItem());
+            itemWorld.DestroySelf();
+        }
     }
 
 }

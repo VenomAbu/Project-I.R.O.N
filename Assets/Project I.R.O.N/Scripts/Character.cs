@@ -26,5 +26,19 @@ public abstract class Character : MonoBehaviour
         }
     }
 
+    public virtual void Heal(int amount)
+    {
+        // Soma a cura ao HP atual
+        currentHp += amount;
+
+        // Impede que o HP passe do limite máximo do tanque
+        if (currentHp > hpMax)
+        {
+            currentHp = hpMax;
+        }
+
+        Debug.Log($"{gameObject.name} foi curado em {amount} pontos. HP Atual: {currentHp}");
+    }
+
     public abstract void Die();
 }
