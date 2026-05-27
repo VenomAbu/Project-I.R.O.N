@@ -31,8 +31,11 @@ public class Enemy : Character
         // Acha a direção para onde está o tanque
         Vector2 direction = (mainTankTransform.position - transform.position).normalized;
 
+        // Faz o sprite rotacionar e olhar para o tanque
+        transform.up = -direction;
+
         // Move na direção do tanque
-        transform.Translate(direction * moveSpeed * Time.deltaTime);
+        transform.position += (Vector3)(direction * moveSpeed * Time.deltaTime);
     }
 
     private void OnTriggerStay2D(Collider2D other)
