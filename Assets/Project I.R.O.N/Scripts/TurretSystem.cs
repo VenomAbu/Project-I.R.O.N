@@ -25,6 +25,9 @@ public class TurretSystem : MonoBehaviour
 
     public void Update()
     {
+        // Se o tempo estiver parado, ignora o código a seguir
+        if (Time.timeScale == 0f) return;
+        
         Aim();
 
         // Botão esquerdo do mouse dispara o tiro
