@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3442598137433978132}
   - component: {fileID: 6810327141492306707}
   m_Layer: 0
-  m_Name: SimpleEnemy2
+  m_Name: SimpleEnemy8
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -3671164263393038162, guid: 3a193848c8d389f4c9eb72aa4a07aa1a, type: 3}
+  m_Sprite: {fileID: 5699032090750237178, guid: 3a193848c8d389f4c9eb72aa4a07aa1a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -106,12 +106,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   level: 1
-  hpMax: 40
+  hpMax: 180
   currentHp: 0
-  xpReward: 100
-  contactDamage: 20
+  xpReward: 60
+  contactDamage: 80
   damageInterval: 1
   moveSpeed: 2
+  budgetCost: 24
 --- !u!58 &6810327141492306707
 CircleCollider2D:
   m_ObjectHideFlags: 0

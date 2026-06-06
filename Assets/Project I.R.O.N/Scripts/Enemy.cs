@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Enemy : Character
@@ -8,6 +9,7 @@ public class Enemy : Character
     public float damageInterval = 1f;
     public float moveSpeed;
     private float nextDamageTime;
+    public int budgetCost;
 
     private void Start()
     {
@@ -79,7 +81,7 @@ public class Enemy : Character
         float roll = Random.Range(0f, 100f);
 
         // Se o número for menor ou igual a 15, o drop acontece!
-        if (roll <= 15f)
+        if (roll <= 5f)
         {
             // Pega todos os tipos possíveis de itens no script Item
             // Isso retorna um Array contendo [RepairKit, Gas, Bomb]

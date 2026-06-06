@@ -1,72 +1,72 @@
+using System.Collections.Generic; // Precisamos disso para usar as Lists
 using UnityEngine;
+
+// Nossa estrutura modular para configurar inimigos no Inspector
+[System.Serializable]
+public struct EnemySpawnConfig
+{
+    public GameObject enemyPrefab;
+    public float unlockTimeSeconds; // Ex: 0 para o começo, 120 para 2 min, 240 para 4 min
+}
 
 public class SpawnController : MonoBehaviour
 {
     public Transform[] spawnPoints;
 
-    [Header("Prefabs dos Inimigos")]
-    public GameObject redEnemyPrefab;   // Custo 1
-    public GameObject blueEnemyPrefab;  // Custo 2
-    public GameObject greenEnemyPrefab; // Custo 4
+    [Header("Configuração do Catálogo de Inimigos")]
+    public EnemySpawnConfig[] enemyConfigs; // Substitui as variáveis antigas
 
-    // O WaveController vai chamar essa função
-    public void ExecuteWave(int currentBudget)
+    // O WaveController agora envia o Budget E o Tempo Atual
+    public void ExecuteWave(int currentBudget, float currentTime)
     {
         int remainingBudget = currentBudget;
-        int tentativasDeSeguranca = 0; // Evita loops infinitos caso não haja budget
 
         // Enquanto ainda houver budget, tenta comprar algo
-        while (remainingBudget >= 1 && tentativasDeSeguranca < 100)
+        while (remainingBudget >= 1)
         {
-            tentativasDeSeguranca++;
+            // 1. Cria um "carrinho de compras" apenas com quem pode ser invocado AGORA
+            List<EnemySpawnConfig> availableEnemies = new List<EnemySpawnConfig>();
 
-            // Sorteia um dos 3 inimigos
-            int choice = Random.Range(0, 3);
-            GameObject selectedPrefab = null;
-            int cost = 0;
-
-            // Define o custo do inimigo sorteado
-            switch (choice)
+            foreach (EnemySpawnConfig config in enemyConfigs)
             {
-                case 0: // Vermelho
-                    selectedPrefab = redEnemyPrefab;
-                    cost = 1;
-                    break;
-                case 1: // Azul
-                    selectedPrefab = blueEnemyPrefab;
-                    cost = 2;
-                    break;
-                case 2: // Verde
-                    selectedPrefab = greenEnemyPrefab;
-                    cost = 4;
-                    break;
+                // Lê o custo acessando diretamente a sua classe Enemy!
+                // (Nota da Rika: Se a sua variável não se chamar 'cost', mude aqui embaixo)
+                int cost = config.enemyPrefab.GetComponent<Enemy>().budgetCost;
+
+                // Se o jogo já passou do tempo de desbloqueio E temos budget para comprar...
+                if (currentTime >= config.unlockTimeSeconds && cost <= remainingBudget)
+                {
+                    availableEnemies.Add(config); // Adiciona na lista de possíveis sorteios
+                }
             }
 
-            // Checa se é possível comprar o inimigo sorteado e, se possível, o instanceia.
-            if (remainingBudget >= cost && selectedPrefab != null)
+            // 2. Trava de Segurança Definitiva:
+            // Se a lista estiver vazia (o budget acabou ou sobrou 1 mas só tem monstro de custo 2 liberado)
+            if (availableEnemies.Count == 0)
             {
-                Spawn(selectedPrefab);
-                remainingBudget -= cost;
-
-                // Se comprar, reseta a trava de segurança
-                tentativasDeSeguranca = 0;
+                break; // Encerra o loop instantaneamente sem travar o Unity!
             }
 
-            // Se o sorteado for muito caro, o loop roda de novo e sorteia outro até achar um que caiba ou o budget zerar.
+            // 3. Sorteia UM inimigo válido
+            int randomIndex = Random.Range(0, availableEnemies.Count);
+            EnemySpawnConfig selectedConfig = availableEnemies[randomIndex];
+
+            // Pega o custo dele para cobrar
+            int selectedCost = selectedConfig.enemyPrefab.GetComponent<Enemy>().budgetCost;
+
+            // 4. Instancia e debita o valor
+            Spawn(selectedConfig.enemyPrefab);
+            remainingBudget -= selectedCost;
         }
     }
 
-    // Função interna que cuida apenas da posição e instanciação
     private void Spawn(GameObject prefab)
     {
         if (spawnPoints.Length == 0) return;
 
-        // Escolhe o Spawn Point aleatóriamente e pega a posição dele
         int index = Random.Range(0, spawnPoints.Length);
         Vector3 spawnPos = spawnPoints[index].position;
-        // Reseta o Z para 0
         spawnPos.z = 0f;
-        // Instancia o prefab do parâmetro
         Instantiate(prefab, spawnPos, Quaternion.identity);
     }
 }

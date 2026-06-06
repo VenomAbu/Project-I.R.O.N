@@ -32,7 +32,7 @@ public class XpManager : MonoBehaviour
         currentXP -= nextLevelXP; // Sobra de XP vai para o próximo nível
 
         // Aumenta a dificuldade do próximo nível (ex: +20%)
-        nextLevelXP = Mathf.RoundToInt(nextLevelXP * 1.2f);
+        nextLevelXP = Mathf.RoundToInt(30+20*player.level+Mathf.Pow(3 * player.level, 1.6f));
 
         // Melhora Atributos
         player.level++;

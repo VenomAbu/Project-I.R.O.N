@@ -23,11 +23,11 @@ public class WaveController : MonoBehaviour
 
         if (Time.time >= waveDelay)
         {
-            // Manda o comando para o spawner com o Budget calculado
-            spawner.ExecuteWave(budget);
+                // Manda o comando para o spawner com o Budget calculado e o tempo de jogo
+                spawner.ExecuteWave(budget, gameTimer);
 
-            // Define o próximo intervalo
-            waveDelay = Time.time + GetCurrentDelay();
+                // Define o próximo intervalo
+                waveDelay = Time.time + GetCurrentDelay();
         }
 
         }
