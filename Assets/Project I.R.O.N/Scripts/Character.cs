@@ -40,5 +40,14 @@ public abstract class Character : MonoBehaviour
         Debug.Log($"{gameObject.name} foi curado em {amount} pontos. HP Atual: {currentHp}");
     }
 
+    public virtual void HealPercentage(float percentage)
+    {
+        // Calcula o valor baseado no HP Máximo
+        int calculatedAmount = Mathf.RoundToInt(hpMax * percentage);
+
+        // Usa a função Heal para curar
+        Heal(calculatedAmount);
+    }
+
     public abstract void Die();
 }

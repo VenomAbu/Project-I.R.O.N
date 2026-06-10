@@ -11,6 +11,8 @@ public class TurretSystem : MonoBehaviour
     [SerializeField] private Transform firePoint;
     [SerializeField] private MainTank mainTank;
     [SerializeField] private int turretDamage = 1;
+    public float shootCooldown = 0.5f;
+    private float nextFireTime = 0f;
 
     [Header("Ricochete Skill")]
     [SerializeField] private GameObject ricochetePrefab;
@@ -30,10 +32,12 @@ public class TurretSystem : MonoBehaviour
         
         Aim();
 
-        // Botão esquerdo do mouse dispara o tiro
-        if (Input.GetMouseButtonDown(0))
+        // Botão esquerdo do mouse dispara o tiro se o cooldown já tiver passado
+        if (Input.GetMouseButtonDown(0) && Time.time >= nextFireTime)
         {
             Shoot();
+            // reajusta o cooldown para o próximo tiro
+            nextFireTime = Time.time + shootCooldown;
         }
     }
 
@@ -53,6 +57,13 @@ public class TurretSystem : MonoBehaviour
     // --- Tiro Padrão ---
     public void Shoot()
     {
+        // Checa se há munição e - se não houver - retorna
+        if (mainTank.ammo <= 0)
+        {
+            Debug.Log("Sem munição!");
+            return; // O 'return' faz a função parar de rodar
+        }
+
         // Instancia a bala na cena e guarda os dados aqui no código para alteração.
         GameObject bulletGo = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 
@@ -63,10 +74,13 @@ public class TurretSystem : MonoBehaviour
 
             // Configura a bala com o dano atualizado
             proj.Setup(damageCalculated);
+
+            // Diminui a munição em 1
+            mainTank.ammo--;
         }
     }
 
-    // --- NOVA HABILIDADE ---
+    // --- Ricochete ---
     // IEnumerador serve para criar códigos que podem ser usados em intervalos de tempo.
     IEnumerator RicochetRoutine()
     {

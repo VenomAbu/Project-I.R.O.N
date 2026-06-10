@@ -112,7 +112,7 @@ MonoBehaviour:
   contactDamage: 70
   damageInterval: 1
   moveSpeed: 2
-  budgetCost: 24
+  budgetCost: 20
 --- !u!58 &6810327141492306707
 CircleCollider2D:
   m_ObjectHideFlags: 0

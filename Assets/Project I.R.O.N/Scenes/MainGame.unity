@@ -2933,16 +2933,16 @@ MonoBehaviour:
       a pr\xF3pria sorte resolve ajudar.\u201D"
     cameraDaFala: {fileID: 691922487}
   - characterName: Haruto
-    portrait: {fileID: -2010921541752064002, guid: 94ef7cf6232aa6c419c45db4967a6fe0, type: 3}
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
     sentence: "Pode deixar com a gente, n\xE3o vamos deixar eles passarem, Irina,
       Daniel, vamos l\xE1!"
     cameraDaFala: {fileID: 0}
   - characterName: Irina
-    portrait: {fileID: -4798090643962218370, guid: 49e56d6a792b313428f1a55f8c506cd4, type: 3}
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
     sentence: Pisando fundo!
     cameraDaFala: {fileID: 0}
   - characterName: Daniel
-    portrait: {fileID: -5444141793433982336, guid: 1ea9bfe8607207246b0347fd430a8dea, type: 3}
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
     sentence: Alvos na mira!
     cameraDaFala: {fileID: 0}
 --- !u!4 &529551227
@@ -4830,9 +4830,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemAssets
   pfItemWorld: {fileID: 7497100104375535455, guid: 2ed83c8a44446c644aece807edd5827e, type: 3}
-  gas: {fileID: -7818457875307895567, guid: 4327475d99f25a649ab67b4f09ddf72a, type: 3}
-  repairKit: {fileID: -3139303215722257878, guid: c6b1f2feb9969fd4b9300e4126b152f6, type: 3}
-  bomb: {fileID: -1483665779731714255, guid: 8a7f443f84f34524c8d31e74a7136679, type: 3}
+  gas: {fileID: 975163271375256714, guid: 71c8bb5eec4697e469145cab94875081, type: 3}
+  repairKit: {fileID: -8090010725767397940, guid: 945f05c7e2f6e9a40ba619744308147a, type: 3}
+  ammo: {fileID: -1483665779731714255, guid: 8a7f443f84f34524c8d31e74a7136679, type: 3}
+  bomb: {fileID: -7301891349135512152, guid: ee58943b32e4dbc488791848399c46fa, type: 3}
 --- !u!4 &924112326
 Transform:
   m_ObjectHideFlags: 0
@@ -5854,6 +5855,7 @@ MonoBehaviour:
   firePoint: {fileID: 286467740}
   mainTank: {fileID: 1489136196}
   turretDamage: 1
+  shootCooldown: 1
   ricochetePrefab: {fileID: 8965020701657074071, guid: c413c62fdcad97444a22e0132fb9c2e2, type: 3}
   ricochetInterval: 5
   ricochetQuantity: 4
@@ -6920,6 +6922,8 @@ MonoBehaviour:
   terrainResistance: 1
   rotationSpeed: 200
   maxReverseSpeed: -10
+  gas: 100
+  ammo: 100
   uiInventory: {fileID: 54831126}
 --- !u!1 &1495591938
 GameObject:
@@ -9303,9 +9307,23 @@ MonoBehaviour:
   - {fileID: 1804324503}
   - {fileID: 1926352243}
   - {fileID: 1456443414}
-  redEnemyPrefab: {fileID: 840776290998108297, guid: 43652d4210dc0d44b970e5de6627a286, type: 3}
-  blueEnemyPrefab: {fileID: 840776290998108297, guid: 56f60b4e6b8f59841b73b48550c0cb53, type: 3}
-  greenEnemyPrefab: {fileID: 840776290998108297, guid: b78a0c04844c4554fa21249d57241627, type: 3}
+  enemyConfigs:
+  - enemyPrefab: {fileID: 840776290998108297, guid: 43652d4210dc0d44b970e5de6627a286, type: 3}
+    unlockTimeSeconds: 0
+  - enemyPrefab: {fileID: 840776290998108297, guid: 56f60b4e6b8f59841b73b48550c0cb53, type: 3}
+    unlockTimeSeconds: 0
+  - enemyPrefab: {fileID: 840776290998108297, guid: b78a0c04844c4554fa21249d57241627, type: 3}
+    unlockTimeSeconds: 0
+  - enemyPrefab: {fileID: 840776290998108297, guid: 44cd2632be8617b46a6fc9a5bf1117fb, type: 3}
+    unlockTimeSeconds: 0
+  - enemyPrefab: {fileID: 840776290998108297, guid: 96d1754bf25d304418993e89d0b994af, type: 3}
+    unlockTimeSeconds: 120
+  - enemyPrefab: {fileID: 840776290998108297, guid: 35215f22528714e449f6a7bbafcf1365, type: 3}
+    unlockTimeSeconds: 120
+  - enemyPrefab: {fileID: 840776290998108297, guid: 7ff77b39b792f244a95760e1b1a4b14b, type: 3}
+    unlockTimeSeconds: 240
+  - enemyPrefab: {fileID: 840776290998108297, guid: ca2ab80e75b9c4e438b7c4d6091ed2e3, type: 3}
+    unlockTimeSeconds: 240
 --- !u!114 &1863260610
 MonoBehaviour:
   m_ObjectHideFlags: 0

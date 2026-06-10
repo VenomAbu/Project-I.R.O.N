@@ -36,8 +36,7 @@ public class XpManager : MonoBehaviour
 
         // Melhora Atributos
         player.level++;
-        player.hpMax += 20;      // Aumenta vida máxima
-        player.currentHp = player.hpMax; // Cura o tanque ao subir de nível
+        player.hpMax += 5;      // Aumenta vida máxima em 5
 
         Debug.Log($"SUBIU DE NÍVEL! Agora o Tanque é Nível {player.level}");
     }

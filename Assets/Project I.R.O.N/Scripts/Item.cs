@@ -8,6 +8,7 @@ public class Item
         RepairKit,
         Gas,
         Bomb,
+        Ammo,
     }
 
     public ItemType itemType;
@@ -22,6 +23,7 @@ public class Item
             case ItemType.RepairKit: return ItemAssets.instance.repairKit;
             case ItemType.Gas: return ItemAssets.instance.gas;
             case ItemType.Bomb: return ItemAssets.instance.bomb;
+            case ItemType.Ammo: return ItemAssets.instance.ammo;
 
         }
     }
@@ -35,6 +37,7 @@ public class Item
             case ItemType.Gas:
             case ItemType.Bomb:
             case ItemType.RepairKit:
+            case ItemType.Ammo:
                 return true;
         }
     }
@@ -46,17 +49,32 @@ public class Item
         {
             case ItemType.Gas:
                 Debug.Log("O tanque foi reabastecido!");
-                // Ex: tank.currentGas += 50;
+                tank.gas += 50;
                 break;
 
             case ItemType.RepairKit:
                 Debug.Log("Consertando a blindagem do tanque!");
-                tank.Heal(100); // Cura o tanque em 100
+                tank.HealPercentage(20);
+                break;
+
+            case ItemType.Ammo:
+                Debug.Log("Recarregando!");
+                tank.ammo += 20;
                 break;
 
             case ItemType.Bomb:
                 Debug.Log("Olha a BOMBA!");
-                // Lógica de explosão
+                GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+                foreach (GameObject enemyInScene in enemies)
+                {
+                    // Pega o componente de vida do inimigo (vou usar o Enemy como exemplo)
+                    if (enemyInScene.TryGetComponent<Enemy>(out Enemy enemy))
+                    {
+                        // Ao invés de Destroy, causamos um dano absurdo!
+                        enemy.Die();
+                    }
+                }
+                // Instanciar um efeito visual de explosão aqui, depois
                 break;
         }
     }

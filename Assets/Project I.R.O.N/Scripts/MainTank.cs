@@ -8,6 +8,11 @@ public class MainTank : Character
     public float terrainResistance;
     public float rotationSpeed;
     public float maxReverseSpeed;
+    public float gas;
+
+    private float gasTime = 0;
+    public int ammo;
+
     private float currentThrottle;
 
     float inputVertical;
@@ -16,8 +21,12 @@ public class MainTank : Character
     private Inventory inventory;
     public UI_Inventory uiInventory;
 
-    new private void Awake()
+    protected override void Awake()
     {
+        // Máximiza a vida atual
+        base.Awake();
+
+        // Inicia o inventário do tanque
         inventory = new Inventory();
     }
 
@@ -31,6 +40,9 @@ public class MainTank : Character
         // Pega os Inputs do jogador
         inputVertical = Input.GetAxis("Vertical");
         inputHorizontal = Input.GetAxis("Horizontal");
+
+        // Mantem o crônometro que gasta gasolina ativo
+        UseGas();
     }
 
     private void FixedUpdate()
@@ -49,8 +61,19 @@ public class MainTank : Character
         else if (currentThrottle < 0)
             currentThrottle += terrainResistance * Time.fixedDeltaTime;
 
-        // Deixa a velocidade entre maxSpeed e maxReverseSpeed
-        currentThrottle = Mathf.Clamp(currentThrottle, maxReverseSpeed, maxSpeed);
+        // Deixa o limite de velocidade entre maxSpeed e maxReverseSpeed
+        float limiteMaximo = maxSpeed;
+        float limiteMinimo = maxReverseSpeed;
+
+        // Se a gasolina acabou, corta os limites pela metade
+        if (gas <= 0)
+        {
+            limiteMaximo = maxSpeed / 2f;
+            limiteMinimo = maxReverseSpeed / 2f;
+        }
+
+        // Deixa a velocidade travada entre os limites calculados
+        currentThrottle = Mathf.Clamp(currentThrottle, limiteMinimo, limiteMaximo);
 
         // Aplica a velocidade
         rb.linearVelocity = transform.up * currentThrottle;
@@ -59,6 +82,30 @@ public class MainTank : Character
         float rotation = inputHorizontal * rotationSpeed * Time.fixedDeltaTime;
         rb.MoveRotation(rb.rotation - rotation);
     }
+
+    public void UseGas()
+    {
+        if (Mathf.Abs(currentThrottle) > 0.05f)
+        {
+            // Inicia o cronômetro que mede quando gastar a gasolina.
+            gasTime += Time.deltaTime;
+
+            // Quando o cronômetro bater 1 segundo (ou mais)...
+            if (gasTime >= 1f)
+            {
+                gas -= 1f;      
+                gasTime -= 1f;   // Reseta o cronômetro
+
+                // Trava de segurança para a gasolina não ficar negativa
+                if (gas < 0)
+                {
+                    gas = 0;
+                    // Aqui você pode adicionar lógica pro tanque parar de andar no futuro!
+                }
+            }
+        }
+    }
+
     public override void Die()
     {
         Debug.Log("O tanque foi destruído! Fim de jogo.");
