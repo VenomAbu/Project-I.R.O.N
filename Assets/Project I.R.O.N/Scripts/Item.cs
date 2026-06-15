@@ -9,6 +9,7 @@ public class Item
         Gas,
         Bomb,
         Ammo,
+        Coin,
     }
 
     public ItemType itemType;
@@ -24,6 +25,7 @@ public class Item
             case ItemType.Gas: return ItemAssets.instance.gas;
             case ItemType.Bomb: return ItemAssets.instance.bomb;
             case ItemType.Ammo: return ItemAssets.instance.ammo;
+            case ItemType.Coin: return ItemAssets.instance.coin;
 
         }
     }
@@ -54,7 +56,7 @@ public class Item
 
             case ItemType.RepairKit:
                 Debug.Log("Consertando a blindagem do tanque!");
-                tank.HealPercentage(20);
+                tank.HealPercentage(0.20f);
                 break;
 
             case ItemType.Ammo:
@@ -67,10 +69,10 @@ public class Item
                 GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
                 foreach (GameObject enemyInScene in enemies)
                 {
-                    // Pega o componente de vida do inimigo (vou usar o Enemy como exemplo)
+                    // Pega o componente de vida do inimigo
                     if (enemyInScene.TryGetComponent<Enemy>(out Enemy enemy))
                     {
-                        // Ao invés de Destroy, causamos um dano absurdo!
+                        // Mata o inimigo
                         enemy.Die();
                     }
                 }

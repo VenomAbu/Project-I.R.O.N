@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8a7f443f84f34524c8d31e74a7136679
+guid: 8717ab8dbb536334e954f94f41923640
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1483665779731714255
-    second: Bomb_0
+      213: 2103329324064541584
+    second: "MISS\xC3O BOT\xC3O_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bomb_0
+      name: "MISS\xC3O BOT\xC3O_0"
       rect:
         serializedVersion: 2
-        x: 504
-        y: 178
-        width: 1267
-        height: 1417
+        x: 13
+        y: 15
+        width: 1554
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13f20b985d5f86be0800000000000000
-      internalID: -1483665779731714255
+      spriteID: 09b878650e6803d10800000000000000
+      internalID: 2103329324064541584
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bomb_0: -1483665779731714255
+      "MISS\xC3O BOT\xC3O_0": 2103329324064541584
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
