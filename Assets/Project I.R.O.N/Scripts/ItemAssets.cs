@@ -17,4 +17,5 @@ public class ItemAssets : MonoBehaviour
     public Sprite repairKit;
     public Sprite ammo;
     public Sprite bomb;
+    public Sprite coin;
 }

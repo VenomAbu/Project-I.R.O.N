@@ -9,6 +9,7 @@ public class MainTank : Character
     public float rotationSpeed;
     public float maxReverseSpeed;
     public float gas;
+    public float coins;
 
     private float gasTime = 0;
     public int ammo;
@@ -73,6 +74,7 @@ public class MainTank : Character
         }
 
         // Deixa a velocidade travada entre os limites calculados
+        // Codar reset de velocidade quando o tanque para de andar no futuro pode ser uma boa ideia.
         currentThrottle = Mathf.Clamp(currentThrottle, limiteMinimo, limiteMaximo);
 
         // Aplica a velocidade
@@ -110,6 +112,13 @@ public class MainTank : Character
     {
         Debug.Log("O tanque foi destruído! Fim de jogo.");
 
+        // Procura o Manager na cena e ativa a tela de morte
+        GameOverManager manager = FindFirstObjectByType<GameOverManager>();
+        if (manager != null)
+        {
+            manager.ShowGameOver();
+        }
+
         // Faz o tanque desaparecer
         gameObject.SetActive(false);
     }
@@ -117,10 +126,24 @@ public class MainTank : Character
     private void OnTriggerEnter2D(Collider2D collision)
     {
         ItemWorld itemWorld = collision.gameObject.GetComponent<ItemWorld>();
-        if(itemWorld != null)
+        if (itemWorld != null)
         {
-            // Encostou em um item
-            inventory.AddItem(itemWorld.GetItem());
+            Item collectedItem = itemWorld.GetItem();
+
+            // --- FILTRO DE COLETA ---
+            if (collectedItem.itemType == Item.ItemType.Coin)
+            {
+                // Se for moeda, soma o valor na carteira e avisa no console
+                coins += collectedItem.amount;
+                Debug.Log($"+$! Pegou uma moeda. Total na carteira: {coins}");
+            }
+            else
+            {
+                // Se for qualquer outro item, vai para o inventário normalmente
+                inventory.AddItem(collectedItem);
+            }
+
+            // O objeto físico da cena é destruído
             itemWorld.DestroySelf();
         }
     }

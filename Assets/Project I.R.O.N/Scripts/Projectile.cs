@@ -1,3 +1,4 @@
+using UnityEditor.PackageManager;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
@@ -6,10 +7,15 @@ public class Projectile : MonoBehaviour
     public int damage;
     public Rigidbody2D rb;
 
+    private MainTank sourceTank;
+    private int lifeStealLvl;
+
     // A Turreta vai chamar isso e passar o dano calculado
-    public void Setup(int damageValue)
+    public void Setup(int damageValue, MainTank tank, int lsLevel)
     {
         damage = damageValue;
+        sourceTank = tank;
+        lifeStealLvl = lsLevel;
     }
 
     private void Start()
@@ -30,6 +36,19 @@ public class Projectile : MonoBehaviour
         {
             // Chama a função TakeDamage de Character.
             character.TakeDamage(damage);
+
+            // --- PASSIVA: LIFE STEAL ---
+            // Se a passiva estiver pelo menos no nível 1
+            if (sourceTank != null && lifeStealLvl > 0)
+            {
+                // Calcula 10% do dano causado por nível
+                int healAmount = Mathf.RoundToInt(damage * 0.10f * lifeStealLvl);
+
+                // Garante que cure pelo menos 1 de HP se o dano for muito baixo
+                if (healAmount < 1) healAmount = 1;
+
+                sourceTank.Heal(healAmount);
+            }
 
             Destroy(gameObject); // Destrói ao bater
         }

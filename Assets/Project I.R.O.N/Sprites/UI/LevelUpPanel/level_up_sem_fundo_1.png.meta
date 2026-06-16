@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: fed94723046059d48a6426ae1e43a388
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1271352997059922519
+    second: level_up_sem_fundo_1_0
+  - first:
+      213: 2105269382030916178
+    second: level_up_sem_fundo_1_1
+  - first:
+      213: -1620451503696024292
+    second: level_up_sem_fundo_1_2
+  - first:
+      213: 6804259812175627343
+    second: level_up_sem_fundo_1_3
+  - first:
+      213: 6634839368830547224
+    second: level_up_sem_fundo_1_4
+  - first:
+      213: -9208538596040610186
+    second: level_up_sem_fundo_1_5
+  - first:
+      213: -8149700644625034309
+    second: level_up_sem_fundo_1_6
+  - first:
+      213: 3342636946119647153
+    second: level_up_sem_fundo_1_7
+  - first:
+      213: -7377791254239464339
+    second: level_up_sem_fundo_1_8
+  - first:
+      213: 3270054771724323151
+    second: level_up_sem_fundo_1_9
+  - first:
+      213: -4821987879061979613
+    second: level_up_sem_fundo_1_10
+  - first:
+      213: -11376320257972415
+    second: level_up_sem_fundo_1_11
+  - first:
+      213: 5199834913872456475
+    second: level_up_sem_fundo_1_12
+  - first:
+      213: 4914000969821441412
+    second: level_up_sem_fundo_1_13
+  - first:
+      213: 3417374029394923916
+    second: level_up_sem_fundo_1_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_0
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 108
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a57d126f2f3b5ee0800000000000000
+      internalID: -1271352997059922519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 108
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a7578495b673d10800000000000000
+      internalID: 2105269382030916178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 108
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d637261fff289e0800000000000000
+      internalID: -1620451503696024292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 108
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44c138af369d6e50800000000000000
+      internalID: 6804259812175627343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_4
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 108
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815fbe8c04fa31c50800000000000000
+      internalID: 6634839368830547224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 108
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e66829fe2b43080800000000000000
+      internalID: -9208538596040610186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 98
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb35a53517276ee80800000000000000
+      internalID: -8149700644625034309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_7
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 49
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfde8aa79e636e20800000000000000
+      internalID: 3342636946119647153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_8
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64b21881f1dc9990800000000000000
+      internalID: -7377791254239464339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_9
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 0
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4903b84d71916d20800000000000000
+      internalID: 3270054771724323151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_10
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 0
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e754d629bd41db0800000000000000
+      internalID: -4821987879061979613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1472c280c4597dff0800000000000000
+      internalID: -11376320257972415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_12
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 0
+        width: 57
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1baa04ed46892840800000000000000
+      internalID: 5199834913872456475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_13
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 0
+        width: 54
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dc128b8d9023440800000000000000
+      internalID: 4914000969821441412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_up_sem_fundo_1_14
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 31
+        width: 91
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81dabed293fc6f20800000000000000
+      internalID: 3417374029394923916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      level_up_sem_fundo_1_0: -1271352997059922519
+      level_up_sem_fundo_1_1: 2105269382030916178
+      level_up_sem_fundo_1_10: -4821987879061979613
+      level_up_sem_fundo_1_11: -11376320257972415
+      level_up_sem_fundo_1_12: 5199834913872456475
+      level_up_sem_fundo_1_13: 4914000969821441412
+      level_up_sem_fundo_1_14: 3417374029394923916
+      level_up_sem_fundo_1_2: -1620451503696024292
+      level_up_sem_fundo_1_3: 6804259812175627343
+      level_up_sem_fundo_1_4: 6634839368830547224
+      level_up_sem_fundo_1_5: -9208538596040610186
+      level_up_sem_fundo_1_6: -8149700644625034309
+      level_up_sem_fundo_1_7: 3342636946119647153
+      level_up_sem_fundo_1_8: -7377791254239464339
+      level_up_sem_fundo_1_9: 3270054771724323151
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

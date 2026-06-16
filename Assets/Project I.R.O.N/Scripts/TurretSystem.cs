@@ -10,6 +10,7 @@ public class TurretSystem : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform firePoint;
     [SerializeField] private MainTank mainTank;
+    [SerializeField] private PassiveManager passiveManager;
     [SerializeField] private int turretDamage = 1;
     public float shootCooldown = 0.5f;
     private float nextFireTime = 0f;
@@ -27,7 +28,6 @@ public class TurretSystem : MonoBehaviour
 
     public void Update()
     {
-        // Se o tempo estiver parado, ignora o código a seguir
         if (Time.timeScale == 0f) return;
         
         Aim();
@@ -69,11 +69,19 @@ public class TurretSystem : MonoBehaviour
 
         if (bulletGo.TryGetComponent<Projectile>(out Projectile proj))
         {
-            // Calcula o dano total do projétil (fórmula temporária: dano = nível x dano do canhão x 10)
-            int damageCalculated = 10 * turretDamage * mainTank.level;
+            // Calcula o dano total do projétil
+            int damageCalculated = 10 * turretDamage + mainTank.level * 8;
 
-            // Configura a bala com o dano atualizado
-            proj.Setup(damageCalculated);
+            // PASSIVA: AUMENTO DE DANO (10% por nível)
+            float damageMultiplier = 1f + (0.10f * passiveManager.damageBoostLevel);
+            damageCalculated = Mathf.RoundToInt(damageCalculated * damageMultiplier);
+
+            // PASSIVA: AUMENTO DE TAMANHO (10% por nível)
+            float sizeMultiplier = 1f + (0.10f * passiveManager.projectileSizeLevel);
+            bulletGo.transform.localScale = bulletGo.transform.localScale * sizeMultiplier;
+
+            // Configura a bala passando o Dano, o Tanque (para curar) e o nível do Life Steal
+            proj.Setup(damageCalculated, mainTank, passiveManager.lifeStealLevel);
 
             // Diminui a munição em 1
             mainTank.ammo--;
@@ -94,7 +102,8 @@ public class TurretSystem : MonoBehaviour
     void LaunchRicochets()
     {
         // Calcula o dano
-        int damageCalculated = 5 * turretDamage * mainTank.level;
+        int damageCalculated = 5 * turretDamage + mainTank.level * 8;
+        // 5*turretDamage+ 2*ricochetDamage + maintank.level*8
 
         // Instanceia 4 projéteis
         for (int i = 0; i < ricochetQuantity; i++)

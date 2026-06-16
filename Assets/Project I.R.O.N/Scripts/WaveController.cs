@@ -33,8 +33,17 @@ public class WaveController : MonoBehaviour
         }
         else
         {
-            // Avisa no console e desativa o objeto do script.
+            // Avisa no console
             Debug.Log("VITÓRIA! Você sobreviveu aos 300 segundos.");
+
+            // Chama a tela de vitória
+            VictoryManager manager = FindFirstObjectByType<VictoryManager>();
+            if (manager != null)
+            {
+                manager.ShowVictory();
+            }
+
+            // Desativa o spawner para parar de criar inimigos
             this.enabled = false;
         }
 
