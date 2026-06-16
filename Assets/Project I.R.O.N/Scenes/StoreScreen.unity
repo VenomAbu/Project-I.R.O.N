@@ -1,0 +1,2260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 2
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 1
+    m_PVRFilteringGaussRadiusAO: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &186070150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 186070151}
+  - component: {fileID: 186070153}
+  - component: {fileID: 186070152}
+  m_Layer: 5
+  m_Name: DialoguePanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &186070151
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186070150}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2123814450}
+  - {fileID: 1830883373}
+  - {fileID: 1259748956}
+  - {fileID: 784038397}
+  m_Father: {fileID: 1700712266}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 42, y: -265}
+  m_SizeDelta: {x: -337.24, y: -814.725}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &186070152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186070150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.72156864}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &186070153
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186070150}
+  m_CullTransparentMesh: 1
+--- !u!1 &354960180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 354960183}
+  - component: {fileID: 354960182}
+  - component: {fileID: 354960181}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &354960181
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354960180}
+  m_Enabled: 1
+--- !u!20 &354960182
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354960180}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &354960183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354960180}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &512084349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 512084351}
+  - component: {fileID: 512084350}
+  m_Layer: 0
+  m_Name: ShopExitButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &512084350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512084349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfae110b2b85a44990f241eddf8718d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShopExitButton
+--- !u!4 &512084351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512084349}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 850.7986, y: 469.39542, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &670369425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 670369426}
+  - component: {fileID: 670369428}
+  - component: {fileID: 670369427}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &670369426
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670369425}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1700712266}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -3.4617, y: 0}
+  m_SizeDelta: {x: 1944.2327, y: 1104.2324}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &670369427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670369425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1413713103915997892, guid: 5683bad250320e241a95760d07e5d9ed, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &670369428
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670369425}
+  m_CullTransparentMesh: 1
+--- !u!1 &784038396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 784038397}
+  - component: {fileID: 784038398}
+  m_Layer: 5
+  m_Name: ChoicesContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &784038397
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784038396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 186070151}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 164, y: 324}
+  m_SizeDelta: {x: 749.93, y: 337.239}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &784038398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784038396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 1
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!1 &1214324323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1214324324}
+  - component: {fileID: 1214324326}
+  - component: {fileID: 1214324325}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1214324324
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214324323}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1349302370}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1214324325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214324323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Button
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1214324326
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214324323}
+  m_CullTransparentMesh: 1
+--- !u!1 &1259748955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1259748956}
+  - component: {fileID: 1259748958}
+  - component: {fileID: 1259748957}
+  m_Layer: 5
+  m_Name: Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1259748956
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259748955}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 186070151}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000030518, y: -25.005}
+  m_SizeDelta: {x: 969.5171, y: 214.5508}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1259748957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259748955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1259748958
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259748955}
+  m_CullTransparentMesh: 1
+--- !u!1 &1349302369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1349302370}
+  - component: {fileID: 1349302373}
+  - component: {fileID: 1349302372}
+  - component: {fileID: 1349302371}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1349302370
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349302369}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1214324324}
+  m_Father: {fileID: 1700712266}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 775, y: -489.65}
+  m_SizeDelta: {x: 323.8, y: 100.7056}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1349302371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349302369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 2
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: -2760314928119181081, guid: a42f3a12805ec3e43a28d45ecca5e591, type: 3}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1349302372}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 512084350}
+        m_TargetAssemblyTypeName: ShopExitButton, Assembly-CSharp
+        m_MethodName: QuitShop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1349302372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349302369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 6717706788473087020, guid: b14f4f5c762f9a046a7aafd073269380, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1349302373
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349302369}
+  m_CullTransparentMesh: 1
+--- !u!1 &1700712262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1700712266}
+  - component: {fileID: 1700712265}
+  - component: {fileID: 1700712264}
+  - component: {fileID: 1700712263}
+  m_Layer: 5
+  m_Name: CutsceneCanvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1700712263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700712262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1700712264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700712262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1700712265
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700712262}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1700712266
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700712262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 670369426}
+  - {fileID: 186070151}
+  - {fileID: 1349302370}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1830883372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1830883373}
+  - component: {fileID: 1830883375}
+  - component: {fileID: 1830883374}
+  m_Layer: 5
+  m_Name: Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1830883373
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830883372}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 186070151}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -416, y: 107.27}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1830883374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830883372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -151.64484, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1830883375
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830883372}
+  m_CullTransparentMesh: 1
+--- !u!1 &1896425305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1896425307}
+  - component: {fileID: 1896425306}
+  m_Layer: 0
+  m_Name: CutsceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1896425306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896425305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa5ae40544ddce44a4e6678fceb46bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
+  autoStart: 1
+  startNodeId: Start
+  dialoguePanel: {fileID: 186070150}
+  portraitImage: {fileID: 2123814451}
+  nameText: {fileID: 1830883374}
+  dialogueText: {fileID: 1259748957}
+  choicesPanel: {fileID: 784038397}
+  choiceButtonPrefab: {fileID: 5712742434956154721, guid: 674305b67155c974f86ab90e812a2d6a, type: 3}
+  playerCam: {fileID: 0}
+  hordaFalsa: {fileID: 0}
+  lines:
+  - nodeId: Start
+    characterName: 
+    portrait: {fileID: 0}
+    sentence: Cidade de Al'Ramil. Mercado Central.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: 
+    portrait: {fileID: 0}
+    sentence: Amira observa a equipe se aproximar.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: "Ainda est\xE3o aqui."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Parece decepcionada.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: "S\xF3 surpresa."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: 
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "Haruto observa os moradores refor\xE7ando barricadas."
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: "A situa\xE7\xE3o parece pior do que imaginei"
+      proximoNodeId: IntroEmpatico
+    - textDaEscolha: "Quanto tempo voc\xEAs conseguem resistir?"
+      proximoNodeId: IntroMilitar
+    - textDaEscolha: "J\xE1 pensaram em abandonar a cidade?"
+      proximoNodeId: IntroPragmatico
+  - nodeId: IntroEmpatico
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "A situa\xE7\xE3o parece pior do que imaginei."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: "Isso porque voc\xEA chegou em um dia bom."
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Continuar
+      proximoNodeId: Hub
+  - nodeId: IntroMilitar
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "Quanto tempo voc\xEAs conseguem resistir?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: "Finalmente algu\xE9m fazendo a pergunta certa."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: 
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: Daniel aprova com um leve aceno.
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Continuar
+      proximoNodeId: Hub
+  - nodeId: IntroPragmatico
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "J\xE1 pensaram em abandonar a cidade?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: Todos os dias.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: 
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Irina parece surpresa
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Continuar
+      proximoNodeId: Hub
+  - nodeId: Hub
+    characterName: 
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: O grupo permanece na loja enquanto a cidade se prepara para o ataque.
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Perguntar sobre Al'Ramil
+      proximoNodeId: Cidade1
+    - textDaEscolha: Perguntar sobre o portal
+      proximoNodeId: Portal1
+    - textDaEscolha: Conversar sobre Amira
+      proximoNodeId: Amira1
+    - textDaEscolha: Falar com Daniel
+      proximoNodeId: Daniel1
+    - textDaEscolha: Falar com Irina
+      proximoNodeId: Irina1
+  - nodeId: Cidade1
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "H\xE1 quanto tempo existe esta comunidade?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: Mais do que deveria.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: "No come\xE7o eram apenas refugiados."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: E funcionou?
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: Ainda estamos vivos.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "Tecnicamente isso \xE9 um argumento v\xE1lido."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: 
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "Haruto observa crian\xE7as carregando caixas."
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Elas deveriam evacuar
+      proximoNodeId: Cidade6A
+    - textDaEscolha: "Est\xE3o ajudando bastante"
+      proximoNodeId: Cidade6B
+  - nodeId: Cidade6A
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: Elas deveriam evacuar.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: Para onde?
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: ...
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: Cidade7
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: "N\xE3o h\xE1 como fugir, ent\xE3o precisam ajudar do jeito como podem."
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Voltar
+      proximoNodeId: Hub
+  - nodeId: Cidade6B
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "Est\xE3o ajudando bastante."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: Aprenderam cedo demais.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: Cidade7
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: Infelizmente, aqui todos trabalham.
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Voltar
+      proximoNodeId: Hub
+  - nodeId: Portal1
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: O que sabem sobre o portal?
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: "Apareceu esta manh\xE3."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "Dist\xE2ncia?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: "Menos de dois quil\xF4metros."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Isso significa problema.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: Sim.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: Que tipo de criaturas?
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: "As mesmas de sempre. S\xF3 que mais numerosas."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: ...
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Devemos Ajudar
+      proximoNodeId: Portal8A
+    - textDaEscolha: Temos responsabilidades maiores
+      proximoNodeId: Portal8B
+  - nodeId: Portal8A
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "N\xF3s deviamos ajudar."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "Finalmente algu\xE9m sensato."
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Voltar
+      proximoNodeId: Hub
+  - nodeId: Portal8B
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "N\xF3s j\xE1 temos nossos pr\xF3prios problemas."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "Uma preocupa\xE7\xE3o v\xE1lida."
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Voltar
+      proximoNodeId: Hub
+  - nodeId: Amira1
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "Voc\xEA sempre foi comerciante?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: "Minha fam\xEDlia negociava muito antes da invas\xE3o."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "Ent\xE3o voc\xEA herdou isso?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: E os problemas.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: Por que continua fazendo isso?
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: Porque pessoas precisam de comida mais do que precisam de discursos.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "Dif\xEDcil discordar."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: ...
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: "Voc\xEA \xE9 corajosa"
+      proximoNodeId: Amira8A
+    - textDaEscolha: "Voc\xEA \xE9 teimosa"
+      proximoNodeId: Amira8B
+  - nodeId: Amira8A
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "Voc\xEA \xE9 corajosa."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: "Prefiro pensar que sou pr\xE1tica."
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Voltar
+      proximoNodeId: Hub
+  - nodeId: Amira8B
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "Voc\xEA \xE9 teimosa."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: "J\xE1 me chamaram de coisa pior."
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Voltar
+      proximoNodeId: Hub
+  - nodeId: Irina1
+    characterName: 
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "Irina mexe em algumas pe\xE7as sobre o balc\xE3o."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "Sabe qual \xE9 o problema?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: Qual deles?
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Excelente pergunta.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: 
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: Daniel revira os olhos.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "Toda cidade que visitamos est\xE1 pegando fogo."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: Nem todas.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Metaforicamente.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: Ah.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: ...
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: "Est\xE1 cansada?"
+      proximoNodeId: IrinaCansada
+    - textDaEscolha: Quer ir embora?
+      proximoNodeId: IrinaIrEmbora
+    - textDaEscolha: O que acha da Amira?
+      proximoNodeId: IrinaAmira
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: ...
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: "Est\xE1 cansada?"
+      proximoNodeId: IrinaCansada
+    - textDaEscolha: Quer ir embora?
+      proximoNodeId: IrinaIrEmbora
+    - textDaEscolha: O que acha da Amira?
+      proximoNodeId: IrinaAmira
+  - nodeId: IrinaCansada
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Talvez um pouco.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "Voc\xEA dormiu at\xE9 quase o meio-dia."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "O tanque tamb\xE9m ficou parado at\xE9 o meio-dia."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "N\xE3o \xE9 a mesma coisa."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Discordo.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "Voc\xEA compara sua rotina a um tanque?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Ele me entende melhor que a maioria das pessoas.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: ...
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: "O que est\xE1 te incomodando?"
+      proximoNodeId: Irina2
+  - nodeId: IrinaIrEmbora
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: Quer ir embora?
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Quero.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "Ent\xE3o por que ainda est\xE1 aqui?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "Porque voc\xEAs ainda est\xE3o aqui."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: 
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: Daniel levanta uma sobrancelha.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "E porque o tanque est\xE1 aqui."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: Agora faz mais sentido.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "Sabia que voc\xEA ia dizer isso."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: ...
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: "O que est\xE1 te incomodando?"
+      proximoNodeId: Irina2
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: ...
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: "O que est\xE1 te incomodando?"
+      proximoNodeId: Irina2
+  - nodeId: IrinaAmira
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: O que acha da Amira?
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Gosto dela.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "S\xE9rio?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "Ela \xE9 honesta."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: Brutalmente honesta.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "Melhor do que fingir esperan\xE7a."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: 
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: "Amira escuta a conversa do balc\xE3o."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Amira
+    portrait: {fileID: 3730332489590165390, guid: 1aa0b2751b2006044b139d2b5e531eac, type: 3}
+    sentence: "Escute mais a mec\xE2nica."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: 
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Irina sorri.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Viu?
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: ...
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: "O que est\xE1 te incomodando?"
+      proximoNodeId: Irina2
+  - nodeId: Irina2
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "O que est\xE1 te incomodando?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Todo mundo quer que a gente resolva os problemas deles.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: ...
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Porque somos capazes
+      proximoNodeId: Irina4A
+    - textDaEscolha: "Porque n\xE3o t\xEAm op\xE7\xE3o"
+      proximoNodeId: Irina4B
+    - textDaEscolha: "N\xE3o podemos salvar todos"
+      proximoNodeId: Irina4C
+  - nodeId: Irina4A
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: Porque somos capazes.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Gostei dessa resposta.
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Voltar
+      proximoNodeId: Hub
+  - nodeId: Irina4B
+    characterName: Haruo
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "Porque n\xE3o t\xEAm op\xE7\xE3o."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "Tamb\xE9m acho."
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Voltar
+      proximoNodeId: Hub
+  - nodeId: Irina4C
+    characterName: Haruo
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "N\xE3o podemos salvar todos."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "\xC9... talvez."
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Voltar
+      proximoNodeId: Hub
+  - nodeId: Daniel1
+    characterName: 
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: Daniel observa o movimento da cidade
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: O que acha?
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: A cidade pode resistir, mas vai pagar caro por isso.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: ...
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: O que te faz pensar isso?
+      proximoNodeId: DanielAnalise
+    - textDaEscolha: "Voc\xEA parece preocupado."
+      proximoNodeId: DanielPreocupado
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: ...
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: O que te faz pensar isso?
+      proximoNodeId: DanielAnalise
+    - textDaEscolha: "Voc\xEA parece preocupado."
+      proximoNodeId: DanielPreocupado
+  - nodeId: DanielAnalise
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: O que te faz pensar isso?
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "Poucas rotas de retirada, pouca muni\xE7\xE3o, muros ruins..."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "Voc\xEA consegue olhar para qualquer lugar sem criar um relat\xF3rio
+      militar?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: Consigo, mas raramente vale a pena.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: 
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: Haruto segura uma risada.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "Voc\xEA vai ajudar a cidade?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: ...
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Sim, ajudaria.
+      proximoNodeId: DanielAjudaSim
+    - textDaEscolha: "N\xE3o \xE9 nosso problema."
+      proximoNodeId: DanielAjudaNao
+  - nodeId: DanielPreocupado
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "Voc\xEA parece preocupado."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: Estou avaliando riscos.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "Tradu\xE7\xE3o: preocupado."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "N\xE3o."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: Definitivamente preocupado.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "A diferen\xE7a \xE9 importante."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "S\xF3 para voc\xEA."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "Voc\xEA vai ajudar a cidade?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: ...
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Sim, ajudaria.
+      proximoNodeId: DanielAjudaSim
+    - textDaEscolha: "N\xE3o \xE9 nosso problema."
+      proximoNodeId: DanielAjudaNao
+  - nodeId: DanielAjudaSim
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: Sim, ajudaria.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "Eu tamb\xE9m ajudaria."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "Por altru\xEDsmo?"
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "Porque \xE9 a melhor op\xE7\xE3o estrat\xE9gica."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "E eu quase achei que voc\xEA tinha cora\xE7\xE3o."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: Eu tenho.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Irina
+    portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
+    sentence: "N\xE3o t\xE1 enganando ningu\xE9m, cara."
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Voltar
+      proximoNodeId: Hub
+  - nodeId: DanielAjudaNao
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: "N\xE3o \xE9 nosso problema."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "N\xE3o gosto dessa resposta."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Haruto
+    portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
+    sentence: Mas entende?
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: Entendo.
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: Daniel
+    portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
+    sentence: "Nem sempre existe combust\xEDvel suficiente para salvar todo mundo."
+    cameraDaFala: {fileID: 0}
+    choices: []
+  - nodeId: 
+    characterName: 
+    portrait: {fileID: 0}
+    sentence: A resposta deixa o ambiente mais pesado.
+    cameraDaFala: {fileID: 0}
+    choices:
+    - textDaEscolha: Voltar
+      proximoNodeId: Hub
+--- !u!4 &1896425307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896425305}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 387.6728, y: 472.5851, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1984121711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1984121714}
+  - component: {fileID: 1984121713}
+  - component: {fileID: 1984121712}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1984121712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984121711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.InputSystemUIInputModule
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &1984121713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984121711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1984121714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984121711}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2123814449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2123814450}
+  - component: {fileID: 2123814452}
+  - component: {fileID: 2123814451}
+  m_Layer: 5
+  m_Name: Portrait
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2123814450
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123814449}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 186070151}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -434.76, y: 336.09772}
+  m_SizeDelta: {x: 300, y: 407.6554}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2123814451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123814449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2123814452
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123814449}
+  m_CullTransparentMesh: 1
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 354960183}
+  - {fileID: 1896425307}
+  - {fileID: 1984121714}
+  - {fileID: 512084351}
+  - {fileID: 1700712266}

@@ -4124,38 +4124,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aa5ae40544ddce44a4e6678fceb46bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
+  autoStart: 1
+  startNodeId: 
   dialoguePanel: {fileID: 1853555447}
   portraitImage: {fileID: 1938645115}
   nameText: {fileID: 1751369261}
   dialogueText: {fileID: 1683221295}
+  choicesPanel: {fileID: 803396782}
+  choiceButtonPrefab: {fileID: 5712742434956154721, guid: 674305b67155c974f86ab90e812a2d6a, type: 3}
   playerCam: {fileID: 450936948}
   hordaFalsa: {fileID: 2095973012}
   lines:
-  - characterName: Guarda
+  - nodeId: 
+    characterName: Guarda
     portrait: {fileID: -4959718041169702101, guid: 0261049f826031049a82efd8dfb00ea8, type: 3}
     sentence: "Os monstros est\xE3o prestes a invadir a cidade, por favor impe\xE7a
       que eles consigam chegar at\xE9 n\xF3s, nossas for\xE7as de defesa est\xE3o
       inoperantes no momento!"
     cameraDaFala: {fileID: 0}
-  - characterName: 
+    choices: []
+  - nodeId: 
+    characterName: 
     portrait: {fileID: 0}
     sentence: "\u201CHaruto estava pensativo pois seria mais um dia de atraso em
       sua traget\xF3ria, mas ao ver que os sobreviventes naquela cidade estavam largados
       a pr\xF3pria sorte resolve ajudar.\u201D"
     cameraDaFala: {fileID: 691922487}
-  - characterName: Haruto
+    choices: []
+  - nodeId: 
+    characterName: Haruto
     portrait: {fileID: -799903641346810218, guid: 0a80e5ed52466cc438f25498671ea6b6, type: 3}
     sentence: "Pode deixar com a gente, n\xE3o vamos deixar eles passarem, Irina,
       Daniel, vamos l\xE1!"
     cameraDaFala: {fileID: 0}
-  - characterName: Irina
+    choices: []
+  - nodeId: 
+    characterName: Irina
     portrait: {fileID: 4392531664169837997, guid: 96ea4d056193b7944b48a605945010ed, type: 3}
     sentence: Pisando fundo!
     cameraDaFala: {fileID: 0}
-  - characterName: Daniel
+    choices: []
+  - nodeId: 
+    characterName: Daniel
     portrait: {fileID: -2054692389715966358, guid: 8064c080da4267544bfe8f4226555966, type: 3}
     sentence: Alvos na mira!
     cameraDaFala: {fileID: 0}
+    choices: []
 --- !u!4 &529551227
 Transform:
   m_ObjectHideFlags: 0
@@ -6353,6 +6367,68 @@ PolygonCollider2D:
       - {x: -3.9565506, y: 37.693542}
       - {x: -3.9926844, y: 19.424782}
   m_UseDelaunayMesh: 1
+--- !u!1 &803396781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 803396782}
+  - component: {fileID: 803396783}
+  m_Layer: 5
+  m_Name: ChoicesContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &803396782
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803396781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1853555448}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 767, y: 0}
+  m_SizeDelta: {x: 330.3349, y: 221.53}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &803396783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803396781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 1
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &843479308
 GameObject:
   m_ObjectHideFlags: 0
@@ -12470,12 +12546,12 @@ GameObject:
   - component: {fileID: 1853555450}
   - component: {fileID: 1853555449}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: DialoguePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1853555448
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12491,6 +12567,7 @@ RectTransform:
   - {fileID: 1938645113}
   - {fileID: 1751369259}
   - {fileID: 1683221297}
+  - {fileID: 803396782}
   m_Father: {fileID: 249594521}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -14400,6 +14477,7 @@ SceneRoots:
   - {fileID: 1863260611}
   - {fileID: 1878234194}
   - {fileID: 87302843}
+  - {fileID: 529551227}
   - {fileID: 1349959886}
   - {fileID: 519420032}
   - {fileID: 619394802}
@@ -14410,7 +14488,6 @@ SceneRoots:
   - {fileID: 924112326}
   - {fileID: 937557228}
   - {fileID: 249594521}
-  - {fileID: 529551227}
   - {fileID: 2095973013}
   - {fileID: 450936949}
   - {fileID: 691922488}

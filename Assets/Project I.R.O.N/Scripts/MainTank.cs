@@ -38,6 +38,8 @@ public class MainTank : Character
 
     private void Update()
     {
+        if (Time.timeScale == 0f) return;
+
         // Pega os Inputs do jogador
         inputVertical = Input.GetAxis("Vertical");
         inputHorizontal = Input.GetAxis("Horizontal");
@@ -48,6 +50,8 @@ public class MainTank : Character
 
     private void FixedUpdate()
     {
+        if (Time.timeScale == 0f) return;
+
         MoveTank();
     }
 

@@ -17,7 +17,16 @@ public class CityMenu : MonoBehaviour
     {
         Debug.Log("Voltando ao menu principal...");
 
-        // Volta à cena 1 (Menu Principal)
-        SceneManager.LoadScene(1);
+        // Volta à cena 0 (Menu Principal)
+        SceneManager.LoadScene(0);
+    }
+
+    // Função para o botão Loja
+    public void OpenShop()
+    {
+        Debug.Log("Abrindo a loja...");
+
+        // Carrega a cena da loja (ex: cena 3)
+        SceneManager.LoadScene(3);
     }
 }

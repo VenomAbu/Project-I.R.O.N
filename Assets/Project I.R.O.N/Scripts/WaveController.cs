@@ -13,6 +13,8 @@ public class WaveController : MonoBehaviour
 
     private void Update()
     {
+        if (Time.timeScale == 0f) return;
+
         if (gameTimer < stageDuration)
         {
         // vai passando o tempo
