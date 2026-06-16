@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0f7cf7a96b84f26468ac186d83c4abd8
+guid: d4ac713597d970742b4ebd1457627690
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5337674827009183298
-    second: Tela inicial Fundo Cinza PNG_0
+      213: -4662074942556872091
+    second: life steal_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tela inicial Fundo Cinza PNG_0
+      name: life steal_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1672
-        height: 941
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24e4d6699fa331a40800000000000000
-      internalID: 5337674827009183298
+      spriteID: 562e5ac5a8bfc4fb0800000000000000
+      internalID: -4662074942556872091
       vertices: []
       indices: 
       edges: []
@@ -135,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tela inicial Fundo Cinza PNG_0: 5337674827009183298
+      life steal_0: -4662074942556872091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

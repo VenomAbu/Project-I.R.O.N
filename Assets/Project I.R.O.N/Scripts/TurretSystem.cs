@@ -28,7 +28,6 @@ public class TurretSystem : MonoBehaviour
 
     public void Update()
     {
-        // Se o tempo estiver parado, ignora o código a seguir
         if (Time.timeScale == 0f) return;
         
         Aim();
@@ -103,7 +102,8 @@ public class TurretSystem : MonoBehaviour
     void LaunchRicochets()
     {
         // Calcula o dano
-        int damageCalculated = 5 * turretDamage * mainTank.level;
+        int damageCalculated = 5 * turretDamage + mainTank.level * 8;
+        // 5*turretDamage+ 2*ricochetDamage + maintank.level*8
 
         // Instanceia 4 projéteis
         for (int i = 0; i < ricochetQuantity; i++)

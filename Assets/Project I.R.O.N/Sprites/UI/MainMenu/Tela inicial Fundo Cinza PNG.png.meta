@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8ddbc073542ca69408e6dcb3b40b9948
+guid: 0f7cf7a96b84f26468ac186d83c4abd8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7737432464892011110
-    second: "Bot\xE3o Jogar on_0"
+      213: 5337674827009183298
+    second: Tela inicial Fundo Cinza PNG_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -96,17 +96,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Bot\xE3o Jogar on_0"
+      name: Tela inicial Fundo Cinza PNG_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 455
-        height: 86
+        width: 1672
+        height: 941
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9d5988fa2e1f9490800000000000000
-      internalID: -7737432464892011110
+      spriteID: 24e4d6699fa331a40800000000000000
+      internalID: 5337674827009183298
       vertices: []
       indices: 
       edges: []
@@ -135,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Bot\xE3o Jogar on_0": -7737432464892011110
+      Tela inicial Fundo Cinza PNG_0: 5337674827009183298
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

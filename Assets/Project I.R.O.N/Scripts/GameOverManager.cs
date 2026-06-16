@@ -10,7 +10,6 @@ public class GameOverManager : MonoBehaviour
     {
         // Garante que o painel comece invisível e o tempo rodando normal
         gameOverPanel.SetActive(false);
-        Time.timeScale = 1f;
     }
 
     // O Tanque vai chamar esta função quando o HP zerar

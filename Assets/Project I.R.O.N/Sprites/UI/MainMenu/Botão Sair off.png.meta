@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 16851872aefaba845bfb676dd6c981fb
+guid: 8ec2d9ca378927d4ea05bc57b8186480
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2760314928119181081
-    second: "Bot\xE3o Sair on_0"
+      213: 6717706788473087020
+    second: "Bot\xE3o Sair off_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,11 +96,37 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Bot\xE3o Sair on_0"
+      name: "Bot\xE3o Sair off_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e09f39923461b9d0800000000000000
-      internalID: -2760314928119181081
+      spriteID: c242b207bb61a3d50800000000000000
+      internalID: 6717706788473087020
       vertices: []
       indices: 
       edges: []
@@ -135,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Bot\xE3o Sair on_0": -2760314928119181081
+      "Bot\xE3o Sair off_0": 6717706788473087020
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
