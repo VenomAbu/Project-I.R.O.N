@@ -1,9 +1,12 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class VictoryManager : MonoBehaviour
 {
     [SerializeField] private GameObject victoryPanel;
+    [SerializeField] private MainTank mainTank;
+
 
     private void Start()
     {
@@ -18,6 +21,8 @@ public class VictoryManager : MonoBehaviour
 
         // Pausa o jogo para o jogador respirar e comemorar
         Time.timeScale = 0f;
+
+        mainTank.coins += 50; // Dá uma recompensa de 50 moedas para o jogador por vencer a fase.
     }
 
     // O botão "Voltar para a Cidade" vai chamar esta função
