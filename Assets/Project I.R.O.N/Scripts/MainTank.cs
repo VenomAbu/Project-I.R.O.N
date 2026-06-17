@@ -8,12 +8,13 @@ public class MainTank : Character
     public float terrainResistance;
     public float rotationSpeed;
     public float maxReverseSpeed;
+    public float maxGas = 100f;
     public float gas;
     public float coins;
-
-    private float gasTime = 0;
     public int ammo;
 
+
+    private float gasTime = 0;
     private float currentThrottle;
 
     float inputVertical;
@@ -26,6 +27,9 @@ public class MainTank : Character
     {
         // Máximiza a vida atual
         base.Awake();
+
+        // Garante que o tanque inicie com a gasolina no máximo
+        gas = maxGas;
 
         // Inicia o inventário do tanque
         inventory = new Inventory();
@@ -150,6 +154,13 @@ public class MainTank : Character
             // O objeto físico da cena é destruído
             itemWorld.DestroySelf();
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Código para zerar a velocidade no caso de impacto.
+        currentThrottle = 0f;
+        rb.linearVelocity = Vector2.zero;
     }
 
 }

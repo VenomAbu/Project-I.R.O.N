@@ -51,7 +51,7 @@ public class Item
         {
             case ItemType.Gas:
                 Debug.Log("O tanque foi reabastecido!");
-                tank.gas += 50;
+                tank.gas = Mathf.Clamp(tank.gas + 50f, 0f, tank.maxGas);
                 break;
 
             case ItemType.RepairKit:
