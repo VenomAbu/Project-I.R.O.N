@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 236c6e20352a3fa439b84d775c06938e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5118985497436395497
+    second: "Miss\xE3o Completa PNG_0"
+  - first:
+      213: -7956908621467034494
+    second: "Miss\xE3o Completa PNG_1"
+  - first:
+      213: 2482346506741211458
+    second: "Miss\xE3o Completa PNG_2"
+  - first:
+      213: 6046579993498528413
+    second: "Miss\xE3o Completa PNG_3"
+  - first:
+      213: -2250596859434286485
+    second: "Miss\xE3o Completa PNG_4"
+  - first:
+      213: 2196724226094854809
+    second: "Miss\xE3o Completa PNG_5"
+  - first:
+      213: 1977341769349941572
+    second: "Miss\xE3o Completa PNG_6"
+  - first:
+      213: -5251089299132404913
+    second: "Miss\xE3o Completa PNG_7"
+  - first:
+      213: -2216589470678849556
+    second: "Miss\xE3o Completa PNG_8"
+  - first:
+      213: 2898560725465937864
+    second: "Miss\xE3o Completa PNG_9"
+  - first:
+      213: -8470388919300489129
+    second: "Miss\xE3o Completa PNG_10"
+  - first:
+      213: 8431209207493952282
+    second: "Miss\xE3o Completa PNG_11"
+  - first:
+      213: 2936667351333839655
+    second: "Miss\xE3o Completa PNG_12"
+  - first:
+      213: 1166094424878956882
+    second: "Miss\xE3o Completa PNG_13"
+  - first:
+      213: 8238943453529725022
+    second: "Miss\xE3o Completa PNG_14"
+  - first:
+      213: 8600003271031382672
+    second: "Miss\xE3o Completa PNG_15"
+  - first:
+      213: -1491697429414825376
+    second: "Miss\xE3o Completa PNG_16"
+  - first:
+      213: 9213713491635277006
+    second: "Miss\xE3o Completa PNG_17"
+  - first:
+      213: 8368886399260303261
+    second: "Miss\xE3o Completa PNG_18"
+  - first:
+      213: 352224004146721003
+    second: "Miss\xE3o Completa PNG_19"
+  - first:
+      213: -9033660496971118989
+    second: "Miss\xE3o Completa PNG_20"
+  - first:
+      213: 3141455580059463607
+    second: "Miss\xE3o Completa PNG_21"
+  - first:
+      213: -748855708175523701
+    second: "Miss\xE3o Completa PNG_22"
+  - first:
+      213: 346329798038401787
+    second: "Miss\xE3o Completa PNG_23"
+  - first:
+      213: -6981283881195526506
+    second: "Miss\xE3o Completa PNG_24"
+  - first:
+      213: -5643493600431026168
+    second: "Miss\xE3o Completa PNG_25"
+  - first:
+      213: 7823134786126381043
+    second: "Miss\xE3o Completa PNG_26"
+  - first:
+      213: 3813205597083482770
+    second: "Miss\xE3o Completa PNG_27"
+  - first:
+      213: -7684475429662709807
+    second: "Miss\xE3o Completa PNG_28"
+  - first:
+      213: 3311940506984334983
+    second: "Miss\xE3o Completa PNG_29"
+  - first:
+      213: 5967077887729790036
+    second: "Miss\xE3o Completa PNG_30"
+  - first:
+      213: 1445826392988300352
+    second: "Miss\xE3o Completa PNG_31"
+  - first:
+      213: -6278141170582032082
+    second: "Miss\xE3o Completa PNG_32"
+  - first:
+      213: 6095810786243414762
+    second: "Miss\xE3o Completa PNG_33"
+  - first:
+      213: 4754016609013618935
+    second: "Miss\xE3o Completa PNG_34"
+  - first:
+      213: -7615695254081634518
+    second: "Miss\xE3o Completa PNG_35"
+  - first:
+      213: 6390304351132941239
+    second: "Miss\xE3o Completa PNG_36"
+  - first:
+      213: 8573409421482844774
+    second: "Miss\xE3o Completa PNG_37"
+  - first:
+      213: -7997916131340644958
+    second: "Miss\xE3o Completa PNG_38"
+  - first:
+      213: 3837828392871390705
+    second: "Miss\xE3o Completa PNG_39"
+  - first:
+      213: -4274346968436511667
+    second: "Miss\xE3o Completa PNG_40"
+  - first:
+      213: 5242245195740351324
+    second: "Miss\xE3o Completa PNG_41"
+  - first:
+      213: -7583108676446989117
+    second: "Miss\xE3o Completa PNG_42"
+  - first:
+      213: 4718070034268377610
+    second: "Miss\xE3o Completa PNG_43"
+  - first:
+      213: 6748426806107840991
+    second: "Miss\xE3o Completa PNG_44"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_0"
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 229
+        width: 55
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7186de6cfc5b5f8b0800000000000000
+      internalID: -5118985497436395497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_1"
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 89
+        width: 71
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28cd63b24c1639190800000000000000
+      internalID: -7956908621467034494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_2"
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 90
+        width: 100
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241edbfeef0137220800000000000000
+      internalID: 2482346506741211458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_3"
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 90
+        width: 30
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9aa67ac774c9e350800000000000000
+      internalID: 6046579993498528413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_4"
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 91
+        width: 69
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b624fcc941644c0e0800000000000000
+      internalID: -2250596859434286485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_5"
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 91
+        width: 69
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992f0ed7b055c7e10800000000000000
+      internalID: 2196724226094854809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_6"
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 90
+        width: 83
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44945a1ecdde07b10800000000000000
+      internalID: 1977341769349941572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_7"
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 91
+        width: 70
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bab599a126027b0800000000000000
+      internalID: -5251089299132404913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_8"
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 91
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7e053de971d31e0800000000000000
+      internalID: -2216589470678849556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_9"
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 90
+        width: 98
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7bb416f91c93820800000000000000
+      internalID: 2898560725465937864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_10"
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 91
+        width: 72
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75080bbe722237a80800000000000000
+      internalID: -8470388919300489129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_11"
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 90
+        width: 59
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a130eaf8a1ca10570800000000000000
+      internalID: 8431209207493952282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_12"
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 90
+        width: 60
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723adbb956321c820800000000000000
+      internalID: 2936667351333839655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_13"
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 90
+        width: 71
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251497183bcce2010800000000000000
+      internalID: 1166094424878956882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_14"
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 90
+        width: 81
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e585b205b6b965270800000000000000
+      internalID: 8238943453529725022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_15"
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 14
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092e5050969595770800000000000000
+      internalID: 8600003271031382672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_16"
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 14
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062bd5f571d6c4be0800000000000000
+      internalID: -1491697429414825376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_17"
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 14
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc0523ba9faddf70800000000000000
+      internalID: 9213713491635277006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_18"
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 56
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f128107d1442470800000000000000
+      internalID: 8368886399260303261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_19"
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 14
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0f7889dd953e400800000000000000
+      internalID: 352224004146721003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_20"
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 14
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376ce80f3adf1a280800000000000000
+      internalID: -9033660496971118989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_21"
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 14
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfec17b431b89b20800000000000000
+      internalID: 3141455580059463607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_22"
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 14
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80ac2673b78b95f0800000000000000
+      internalID: -748855708175523701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_23"
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 14
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2363bcd196ec400800000000000000
+      internalID: 346329798038401787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_24"
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 14
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6962e296c4f7d1f90800000000000000
+      internalID: -6981283881195526506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_25"
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 15
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8005e1e88784ea1b0800000000000000
+      internalID: -5643493600431026168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_26"
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 15
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff7015a3ab519c60800000000000000
+      internalID: 7823134786126381043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_27"
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 14
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a31bd894a3be430800000000000000
+      internalID: 3813205597083482770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_28"
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 15
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7acb19f424b5590800000000000000
+      internalID: -7684475429662709807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_29"
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 15
+        width: 10
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786470cf75066fd20800000000000000
+      internalID: 3311940506984334983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_30"
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 14
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ce83559b15fc250800000000000000
+      internalID: 5967077887729790036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_31"
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 14
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044b3f0b17b901410800000000000000
+      internalID: 1445826392988300352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_32"
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 14
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21f3bd4edf8fd8a0800000000000000
+      internalID: -6278141170582032082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_33"
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 35
+        width: 137
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea8804fc9ba89450800000000000000
+      internalID: 6095810786243414762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_34"
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 14
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f850940be8a9f140800000000000000
+      internalID: 4754016609013618935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_35"
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 14
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ff5de148d9f4690800000000000000
+      internalID: -7615695254081634518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_36"
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 14
+        width: 10
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb79e733fbeea850800000000000000
+      internalID: 6390304351132941239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_37"
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 14
+        width: 9
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662e879e17edaf670800000000000000
+      internalID: 8573409421482844774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_38"
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 14
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad031047a1b10190800000000000000
+      internalID: -7997916131340644958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_39"
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 14
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fde102f694b24530800000000000000
+      internalID: 3837828392871390705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_40"
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 15
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ce29324187ea4c0800000000000000
+      internalID: -4274346968436511667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_41"
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 14
+        width: 9
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b0a9d1b3230c840800000000000000
+      internalID: 5242245195740351324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_42"
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 14
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4d137f5d263c690800000000000000
+      internalID: -7583108676446989117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_43"
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 14
+        width: 9
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a025bf1e2b3f97140800000000000000
+      internalID: 4718070034268377610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miss\xE3o Completa PNG_44"
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 35
+        width: 135
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd128caec6a37ad50800000000000000
+      internalID: 6748426806107840991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Miss\xE3o Completa PNG_0": -5118985497436395497
+      "Miss\xE3o Completa PNG_1": -7956908621467034494
+      "Miss\xE3o Completa PNG_10": -8470388919300489129
+      "Miss\xE3o Completa PNG_11": 8431209207493952282
+      "Miss\xE3o Completa PNG_12": 2936667351333839655
+      "Miss\xE3o Completa PNG_13": 1166094424878956882
+      "Miss\xE3o Completa PNG_14": 8238943453529725022
+      "Miss\xE3o Completa PNG_15": 8600003271031382672
+      "Miss\xE3o Completa PNG_16": -1491697429414825376
+      "Miss\xE3o Completa PNG_17": 9213713491635277006
+      "Miss\xE3o Completa PNG_18": 8368886399260303261
+      "Miss\xE3o Completa PNG_19": 352224004146721003
+      "Miss\xE3o Completa PNG_2": 2482346506741211458
+      "Miss\xE3o Completa PNG_20": -9033660496971118989
+      "Miss\xE3o Completa PNG_21": 3141455580059463607
+      "Miss\xE3o Completa PNG_22": -748855708175523701
+      "Miss\xE3o Completa PNG_23": 346329798038401787
+      "Miss\xE3o Completa PNG_24": -6981283881195526506
+      "Miss\xE3o Completa PNG_25": -5643493600431026168
+      "Miss\xE3o Completa PNG_26": 7823134786126381043
+      "Miss\xE3o Completa PNG_27": 3813205597083482770
+      "Miss\xE3o Completa PNG_28": -7684475429662709807
+      "Miss\xE3o Completa PNG_29": 3311940506984334983
+      "Miss\xE3o Completa PNG_3": 6046579993498528413
+      "Miss\xE3o Completa PNG_30": 5967077887729790036
+      "Miss\xE3o Completa PNG_31": 1445826392988300352
+      "Miss\xE3o Completa PNG_32": -6278141170582032082
+      "Miss\xE3o Completa PNG_33": 6095810786243414762
+      "Miss\xE3o Completa PNG_34": 4754016609013618935
+      "Miss\xE3o Completa PNG_35": -7615695254081634518
+      "Miss\xE3o Completa PNG_36": 6390304351132941239
+      "Miss\xE3o Completa PNG_37": 8573409421482844774
+      "Miss\xE3o Completa PNG_38": -7997916131340644958
+      "Miss\xE3o Completa PNG_39": 3837828392871390705
+      "Miss\xE3o Completa PNG_4": -2250596859434286485
+      "Miss\xE3o Completa PNG_40": -4274346968436511667
+      "Miss\xE3o Completa PNG_41": 5242245195740351324
+      "Miss\xE3o Completa PNG_42": -7583108676446989117
+      "Miss\xE3o Completa PNG_43": 4718070034268377610
+      "Miss\xE3o Completa PNG_44": 6748426806107840991
+      "Miss\xE3o Completa PNG_5": 2196724226094854809
+      "Miss\xE3o Completa PNG_6": 1977341769349941572
+      "Miss\xE3o Completa PNG_7": -5251089299132404913
+      "Miss\xE3o Completa PNG_8": -2216589470678849556
+      "Miss\xE3o Completa PNG_9": 2898560725465937864
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

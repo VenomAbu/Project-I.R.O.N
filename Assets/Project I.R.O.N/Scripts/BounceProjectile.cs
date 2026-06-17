@@ -40,7 +40,6 @@ public class BounceProjectile : MonoBehaviour
             if (other.TryGetComponent<Enemy>(out Enemy enemy))
             {
                 enemy.TakeDamage(damage);
-                // Se quiser que o ricochete suma ao bater no inimigo, use: Destroy(gameObject);
             }
         }
     }

@@ -81,7 +81,7 @@ public class Enemy : Character
         float roll = Random.Range(0f, 100f);
 
         // Se o número for menor ou igual a 15, o drop acontece!
-        if (roll <= 5f)
+        if (roll <= 15f)
         {
             // Pega todos os tipos possíveis de itens no script Item
             // Isso retorna um Array contendo [RepairKit, Gas, Bomb]
