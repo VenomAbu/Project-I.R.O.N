@@ -4,7 +4,20 @@
 ![Render Pipeline](https://img.shields.io/badge/Rendering-URP_2D-blue)
 ![Language](https://img.shields.io/badge/Language-C%23-green?logo=csharp)
 
+<img width="576" height="772" alt="LOGO PNG" src="https://github.com/user-attachments/assets/9b431106-d96b-4c8e-ae0c-fe9fc1474489" />
+
+
 **Project I.R.O.N** is a Unity 2D top-down tank survival game with roguelite progression: drive a tank with inertia-based physics, survive timed waves driven by a budget-based difficulty director, level up mid-combat to draft passive upgrade cards, collect and manage consumable items, and explore a hub city with shop and story cutscenes built on a branching dialogue system.
+
+**Playable Build:** [Project I.R.O.N on itch.io](https://venomabu.itch.io/project-iron-proto)
+
+---
+## Screenshots
+
+<img width="1277" height="715" alt="Main Menu" src="https://github.com/user-attachments/assets/2d5ac639-378d-4e5e-9fc9-0b8773475c75" />
+<img width="1274" height="712" alt="Dialogue" src="https://github.com/user-attachments/assets/d0619106-064f-49a9-8eed-64c91b301484" />
+<img width="1272" height="715" alt="image" src="https://github.com/user-attachments/assets/ecabe12c-4c6a-46cb-a1cd-f3d4fb3304b5" />
+
 
 ---
 
